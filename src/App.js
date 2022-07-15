@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar'
-
+import Navbar from './components/Navbar';
+import TextForm1 from './components/TextForm1'
 let name="adnan";
 const element = <a href="https://www.reactjs.org"> link </a>;
 const cont=(<h1>what is happenning here </h1>)
@@ -34,8 +34,9 @@ function texteditor()
     <>
     
     <Navbar title="adnan sadiq" about="about Text"/>
-    <h1>hlo word</h1>
-      
+
+    <TextForm1 message="TextArea"/>
+    
     </>
   )
 }
