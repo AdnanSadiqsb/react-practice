@@ -2,9 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm1 from './components/TextForm1'
+import About from './components/about'
+
 let name="adnan";
 const element = <a href="https://www.reactjs.org"> link </a>;
 const cont=(<h1>what is happenning here </h1>)
+
 function App() {
   return (  
     <>
@@ -31,13 +34,13 @@ function texteditor()
 {
   return(
 
-    <>
+    <div className='main'>
     
     <Navbar title="adnan sadiq" about="about Text"/>
 
-    <TextForm1 message="TextArea"/>
-    
-    </>
+    <TextForm1 message="Enter Text To Analyze"/>
+    <About/>
+    </div>
   )
 }
 
